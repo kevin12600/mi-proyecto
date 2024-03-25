@@ -1,0 +1,88 @@
+body{
+  
+    font-family: Lobster;
+    background: linear-gradient(rgb(240, 233, 233),);
+
+    font-size: 20px;
+   
+
+}
+    .nav{
+    
+        background: rgb(227, 219, 219);
+        
+        display: flex;
+        
+        justify-content: center ;
+        align-items: center;
+        border-radius: 22px;
+        width: 100%;
+        
+    }
+    nav > a {
+        color:rgb(104, 104, 104);
+        text-decoration: none;
+        padding:5px 10px;
+        border-radius: 22px;
+    }
+    nav > a:hover{
+        transition: 0.25s;
+        background: rgb(18, 18, 19);
+        color: white;
+    }
+
+.contenedor-encabezado {
+    display: flex;
+   width: 100%; 
+   
+}
+.contenedor-logo {
+    
+   
+    width: 350px; 
+    height: 120px;
+   
+}
+
+.boton-estilo{
+    background-color: rgb(45, 187, 187);
+    width: 75px;
+    height: 35px;
+    justify-content: space-between; /* Alinea verticalmente los elementos */
+    margin-left: 100px;
+}
+.estilo-imgcentral{
+    
+    display: block; 
+    margin: 0 auto; /* Centra horizontalmente */
+    width: 54%; 
+    height: 50%;;  
+}
+.estilo-recetas{
+    margin-left: 330px;
+    margin-right: 330px;
+    display: flex;
+    
+    justify-content: center;
+    font-family: Lobster;
+    font-size: 15px;
+   
+}
+.contenedor-imgrecetas {
+    display: flex;
+    flex-wrap: nowrap; /* No permite que los elementos se envuelvan a una nueva línea */
+  }
+
+.estilo-imgrecetas{
+    width: 150px; 
+    height: 150px;
+    margin-left: 5px;
+    
+   
+}
+.receta {
+    text-align: center;
+    margin: 10px; /* Espacio entre cada receta */
+    
+  }
+  
